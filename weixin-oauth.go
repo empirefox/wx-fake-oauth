@@ -3,6 +3,17 @@ package main
 // Open url in browser:
 // http://localhost:14000/app
 
+// Modify:
+//
+// osin.util.go #getClientAuth
+// client_secret => secret
+// client_id => appid
+//
+// mp/oauth2/endpoint.go
+// https => http
+//
+// mp/oauth2/userinfo.go
+// https => http
 import (
 	"flag"
 	"fmt"
